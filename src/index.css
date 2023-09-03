@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 h-screen overflow-hidden text-white relative;
+}
+
+#root {
+  @apply px-4 md:px-0 backdrop-blur-3xl bg-gray-900/70 antialiased text-white w-full relative z-30 h-screen overflow-auto;
+}
+
+.circle1 {
+  @apply absolute top-12 z-20 left-[-5rem] w-[50%] h-[30%] rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rotate-12;
+}
+
+.circle2 {
+  @apply absolute bottom-0 z-20 right-10 md:right-3 w-[20%] h-[30%] rotate-12 rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% bg-pink-600 to-90%;
+}
