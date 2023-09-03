@@ -28,7 +28,11 @@ const App = () => {
               key={item.id}
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800/50 dark:border-gray-700"
             >
-              <img className="rounded-t-lg" src={item.image} alt={item.name} />
+              <img
+                className="rounded-t-lg w-full"
+                src={item.image}
+                alt={item.name}
+              />
 
               <div className="p-5">
                 <a href="#">
