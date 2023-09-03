@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { TestingService } from "./services/testing.service";
+import { TestingService } from "./services";
 
 const App = () => {
   const [rick, setRick] = useState([] as any);
