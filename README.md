@@ -20,10 +20,10 @@
 
 ### Desktop
 
-![Macbook Pro](assets/Desktop.jpg)
-![Macbook Pro error](assets/Desktop-error.jpg)
+![Macbook Pro](assets/Desktop.jpeg)
+![Macbook Pro error](assets/Desktop-error.jpeg)
 
 ### Mobile
 
-![Samsung s21](assets/mobile.jpg)
-![Samsung s21 error](assets/mobile-error.jpg)
+![Samsung s21](assets/mobile.jpeg)
+![Samsung s21 error](assets/mobile-error.jpeg)
