@@ -24,8 +24,8 @@ const App = () => {
     <SnackbarProvider>
       <SnackbarUtilitiesConfig />
       <main className="flex flex-col gap-4">
-        <h1 className="text-3xl font-bold">Resultado:</h1>
-        <div className="grid grid-cols-4 gap-4 container mx-auto">
+        <h1 className="text-3xl font-bold">Results:</h1>
+        <div className="grid xl:grid-cols-4 sm:grid-cols-2 gap-4 container mx-auto">
           {rick &&
             rick.map((item: any) => (
               <div
